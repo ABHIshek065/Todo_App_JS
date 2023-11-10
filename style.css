@@ -111,6 +111,7 @@ margin-left: 224px;
     align-items: center;
     gap: 82px;
     justify-content: flex-end;
+
 }
 .title-input:focus, .desc-input:focus{
     outline: none;
@@ -167,5 +168,10 @@ margin-left: 224px;
     .add-todo-container {
         margin: 10px auto;
         bottom: 0;
+    }
+    .DeleteTask{
+     margin-left: 24px;
+      
+        cursor: pointer;
     }
 }
