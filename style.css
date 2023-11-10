@@ -55,6 +55,8 @@ body{
 }
 .content{
     margin-left: 20px;
+
+
 }
 .todo-done{
     margin: 0;
@@ -93,6 +95,23 @@ body{
     border: none;
     cursor: pointer;
 }
+
+.DeleteTask{
+    background-color: blueviolet;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+margin-left: 224px;
+  
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 82px;
+    justify-content: flex-end;
+}
 .title-input:focus, .desc-input:focus{
     outline: none;
     border:none;
@@ -120,6 +139,8 @@ body{
     background-color:rgb(255, 220, 164);
 
 }
+
+
 
 @media (max-width: 799px){
     .container {
